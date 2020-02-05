@@ -1,0 +1,32 @@
+.header
+  .header__logo
+    「あなたの血液で救われる命がある」
+.contents
+  .contents__message
+    献血活動記録所
+    %th.url
+      =link_to "http://www.jrc.or.jp/donation/", class: "contents__btn" do
+        = icon('fas', 'door-open')
+        日本赤十字社公式サイト
+      =link_to "https://ja-jp.facebook.com/japaneseredcross", class: "contents__btn" do
+        = icon('fab', 'facebook-square')
+        Facebook
+      =link_to "https://twitter.com/JRCS_PR?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor", class: "contents__btn" do
+        = icon('fab', 'twitter')
+        Twitter
+
+-# .header
+-#  .header__log
+-#   kkk
+-# .contents
+-#   .contents__message
+-#     新規
+-#   .contents__btn
+-#     検索
+  
+-# - @posts.each do |post|
+-#   .post
+-#     .post-date
+-#       投稿日時：#{post.created_at}
+-#     .post-content
+-#       = post.content
