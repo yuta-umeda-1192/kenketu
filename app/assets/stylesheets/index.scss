@@ -1,0 +1,51 @@
+.toppage_header_contents {
+  background-color:orange;
+  height:90px;
+  .toppage_header_contents_text{
+    position: relative;;
+    color:white;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 30px;
+    padding-left:100px;
+  }
+  .toppage_header_contents_link{
+    padding-left: 300px;
+  
+    display:flex;
+    .toppage_header_contents_link_official{
+      
+      .official_btn{
+      }
+    }
+    .toppage_header_contents_link_facebook{
+      padding-left:10px;
+      .facebook_btn{
+
+      }
+    }
+    .toppage_header_contents_link_twitter{
+      padding-left:10px;
+      .twitter_btn{
+
+      }
+    }
+  }
+}
+.toppage_body{ 
+  height:800px;
+  .image_sky{
+    position: absolute;
+    height:800px;
+    width:1500px;
+  }
+  &_text{
+    position: relative;;
+    padding-top:40px;
+    text-align: center;
+    font-size: 36px;
+    line-height: 90px;
+    font-family: serif;
+    color:white;
+  }
+}
